@@ -9,7 +9,7 @@ import "swiper/css";
 export default function Counter () {
   return (
     <>
-      <section className="counter-section pt-8 md:pt-16">
+      <section className="counter-section my-8 md:my-16">
         <div className="container">
           <Swiper
             slidesPerView={1}
@@ -39,7 +39,7 @@ export default function Counter () {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex items-center justify-center gap-4 px-6 py-6 bg-grey-2 rounded-2xl">
+              <div className="flex items-center justify-center gap-4 px-6 py-6 bg-grey-2 rounded-2xl ">
                 <FaUserAlt className="w-16 h-16 text-custom-3" />
                 <div>
                   <div className="flex">
@@ -51,7 +51,7 @@ export default function Counter () {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex items-center justify-center gap-4 px-6 py-6 bg-grey-1 rounded-2xl">
+              <div className="flex items-center justify-center gap-4 px-6 py-6 bg-grey-1 rounded-2xl ">
                 <FaUserGraduate className="w-16 h-16 text-custom-4" />
                 <div>
                   <div className="flex">
@@ -63,7 +63,7 @@ export default function Counter () {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex items-center justify-center gap-4 px-6 py-6 bg-custom-5 rounded-2xl">
+              <div className="flex items-center justify-center gap-4 px-6 py-6 bg-custom-5 rounded-2xl ">
                 <BiCertification className="w-16 h-16 text-custom-6" />
                 <div>
                   <div className="flex">
