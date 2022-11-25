@@ -24,6 +24,7 @@ module.exports = {
       '3xl': ['30px', { lineHeight: '36px' }],
       '4xl': ['36px', { lineHeight: '40px' }],
       '5xl': ['48px', { lineHeight: '54px' }],
+      label: ['14px', { lineHeight: '22px', letterSpacing: '1px' }],
     },
     fontFamily:{
       sans: ['Inter', 'sans-serif']
@@ -43,6 +44,8 @@ module.exports = {
         black: '#000000',
         white: '#FFFFFF',
         blue: '#326EC7',
+        red: '#d6293e',
+        dark: '#181d38',
         'light-blue': '#5B93E8',
         navi: '#00327C',
         'light-navi': '#2456A0',
@@ -61,6 +64,7 @@ module.exports = {
         'custom-4': '#754AC4',
         'custom-5': '#E7F6F8',
         'custom-6': '#1EA4B9',
+        'custom-7': '#989898',
       },
       boxShadow: {
         0: '0'

@@ -11,7 +11,6 @@ function Hero() {
   return (
     <Swiper
       modules={[Autoplay, Navigation, Pagination, Scrollbar]}
-      navigation
       loop={true}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}

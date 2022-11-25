@@ -35,3 +35,14 @@ code {
 .menu-item-line::after {
   @apply content-[''] w-full h-[3px] absolute left-0 bottom-0 bg-light-orange transition-all duration-300;
 }
+
+.button {
+  @apply relative overflow-hidden transition-colors duration-300 ease-in-out
+    inline-block px-6 pt-[13px] pb-[11px] text-label font-medium uppercase text-center border border-solid rounded
+    disabled:border-grey-1 disabled:bg-grey-1 disabled:pointer-events-none;
+}
+
+.button-outlined {
+  @apply button bg-transparent border-grey-2 text-black
+    hover:text-white hover:bg-blue;
+}

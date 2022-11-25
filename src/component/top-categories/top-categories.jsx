@@ -14,7 +14,7 @@ export default function TopCategories () {
       <section className="top-categories my-8 md:my-16">
         <div className="container">
           <h2 className="text-xl md:text-2xl font-semibold capitalize mb-4 md:mb-6 text-grey-9 flex items-center justify-center">
-            <BsTable className="inline-block mr-4" />
+            <BsTable className="inline-block mr-4 w-6 h-6" />
             Top
             <span className="text-blue ml-2">
             Categories
