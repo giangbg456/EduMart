@@ -1,6 +1,7 @@
 import authReducer from "./authReducer";
 import userReducer from "./userReducer";
 import courseReducer from "./courseReducer";
+import videoReducer from "./videoReducer";
 import appReducer from "./appReducer";
 import { combineReducers } from "redux";
 import storage from "redux-persist/lib/storage";
@@ -23,6 +24,7 @@ const rootReducer = combineReducers({
     auth: persistReducer(authConfig, authReducer),
     user: userReducer,
     course: courseReducer,
+    video: videoReducer,
     app: appReducer
 })
 

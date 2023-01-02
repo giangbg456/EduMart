@@ -19,7 +19,7 @@ function Collection() {
               <Card 
                 key={item?.id}
                 id={item?.id}
-                productImage = {item?.images.image}
+                productImage = {JSON.parse(item?.images.image)}
                 productName={item?.name}
                 author={item?.teacherID}
                 price_amount={item?.priceSale}

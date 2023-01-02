@@ -66,6 +66,7 @@ module.exports = {
         'custom-6': '#1EA4B9',
         'custom-7': '#989898',
         'custom-8': '#d6d6d6',
+        'custom-9': '#29303b',
       },
       boxShadow: {
         0: '0'

@@ -5,15 +5,14 @@ module.exports = {
     await queryInterface.createTable('Courses', {
       id: {
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       name: {
         type: Sequelize.STRING
       },
       imageID: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         references: {
           model: {
             tableName: 'Images'
@@ -22,7 +21,7 @@ module.exports = {
         }
       },
       attributeID: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         references: {
           model: {
             tableName: 'Attributes'

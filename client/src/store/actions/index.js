@@ -1,5 +1,6 @@
 export * from './auth'
 export * from './course'
+export * from './video'
 // export * from './post'
 // export * from './app'
 // export * from './user'

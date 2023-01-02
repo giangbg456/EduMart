@@ -1,6 +1,6 @@
 import React from 'react'
 
-const InputFormV2 = ({ label, unit, value, setValue, name, small }) => {
+const InputFormV2 = ({ label, unit, value, setValue, name, small,required }) => {
     return (
         <div>
             <label htmlFor="title">{label}</label>
@@ -11,6 +11,7 @@ const InputFormV2 = ({ label, unit, value, setValue, name, small }) => {
                     className={`${unit ? 'rounded-tl-md rounded-bl-md' : 'rounded-md'} outline-none border flex-auto border-gray-300 p-2`}
                     value={value}
                     onChange={(e) => setValue(prev => ({ ...prev, [name]: e.target.value }))}
+                    required={required}
                 />
                 {unit && <span className='p-2 border flex-none w-16 flex items-center justify-center rounded-tr-md rounded-br-md bg-gray-200'>{unit}</span>}
             </div>

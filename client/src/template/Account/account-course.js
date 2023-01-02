@@ -31,7 +31,7 @@ function AccountCourse() {
               <tr className="border-default border-b">
                 <th>ID</th>
                 <th>Name</th>
-                <th>Teacher</th>
+                {/* <th>Teacher</th> */}
                 <th>Time</th>
                 <th className="text-center">Action</th>
               </tr>
@@ -42,8 +42,8 @@ function AccountCourse() {
               <tr className="border-default border-b last:border-0">
                 <td className="text-center">{item?.id}</td>
                 <td className="py-4">{item?.name}</td>
-                <td className="text-center">{item?.teacherID}</td>
-                <td>{item?.createdAt}</td>
+                {/* <td className="text-center">{item?.teacherID}</td> */}
+                <td>{new Date(item?.createdAt).toLocaleDateString('en-US')}</td>
                 <td className="flex gap-3 py-4">
                   <Link to={`/course/${formatVietnameseToString(item?.name)}/${item?.id}`} className="px-3 py-2 bg-green rounded-md text-white">View</Link>
                   <button className="px-3 py-2 bg-blue rounded-md text-white">Edit</button>

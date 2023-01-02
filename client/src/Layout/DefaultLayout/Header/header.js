@@ -42,7 +42,7 @@ function Header () {
                         className="w-6 h-6"
                       />
                     </Link>
-                  <label
+                  {/* <label
                     for="SearchSuggestion"
                     className="cursor-pointer js-search-trigger"
                   >
@@ -52,7 +52,7 @@ function Header () {
                   </label>
                   <Link to={'/cart'}>
                     <BsCart3  className="w-6 h-6"  />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

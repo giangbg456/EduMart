@@ -11,7 +11,7 @@ function AccountBlog() {
             <IoBookOutline/>
             Blogs
           </h2>
-          <Link to={'/account/new-course'} className="flex items-center bg-blue text-white px-2 py-2 rounded-xl overflow-hidden">
+          <Link to={'/account/new-blog'} className="flex items-center bg-blue text-white px-2 py-2 rounded-xl overflow-hidden">
             New Blog
             <IoAddOutline />
           </Link>

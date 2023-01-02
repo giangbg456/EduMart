@@ -1,6 +1,7 @@
 //layout
 
 import Account from '../Layout/Account'
+import LearningLayout from '../Layout/learning'
 
 import Home from '../template/Home/home'
 import Product from '../template/Product/product'
@@ -16,6 +17,7 @@ import Login from '../template/Login/login'
 import Collection from '../template/Collection/collection'
 import CreateCourse from '../template/Account/create-course'
 import CreateBlog from '../template/Account/create-blog'
+import Learning from '../template/Learning/learning'
 
 const publicRoutes = [
   { path: '/', component: Home },
@@ -25,6 +27,8 @@ const publicRoutes = [
   { path: '/courses/all', component: Collection},
   { path: '/courses/*', component: Collection},
   { path: 'course/:name/:courseId', component: Product},
+  { path: 'learing/:name/:courseId', component: Learning, layout: LearningLayout },
+  { path: 'learing/:name/:courseId/:sectionId', component: Learning, layout: LearningLayout },
   { path: '/account/student', component: AccountStudent, layout: Account},
   { path: '/account/teacher', component: AccountTeacher, layout: Account},
   { path: '/account/course', component: AccountCourse, layout: Account},
